@@ -17,7 +17,7 @@ const options = document.querySelector('#colors-dropdown').addEventListener('cha
   if (this.value === 'BORUSSIA') {
     color.setProperty('--primary', '#FDE100')
     color.setProperty('--secondary', '#000000')
-    greet.innerHTML = 'Welcome!'
+    greet.innerHTML = 'Willkommen!'
   }
 
   if (this.value === 'MADRID') {
