@@ -8,19 +8,28 @@
   </head>
   <body>
     <div class="container">
-      <div class="header">
-        <p class="title">Kick Soccer Coin Theme</p>
-      </div>
       <div class="controls">
-        <div class="control-container">
-          <label>Club Primary Color</label>
-          <input type="color" id="base" value="#c00001" />
-          <label>Club Secondary Color</label>
-          <input type="color" id="base2" value="#ffffff" />
-        </div>
+        <p class="title">Kick Soccer Coin Theme</p>
+        <div class="select-container">
+        <label for="pet-select">My Team ⚽️</label>
+        <select id="colors-dropdown">
+          <option value="BENFICA" selected>Benfica</option>
+          <option value="BARCELONA">Barcelona</option>
+          <option value="CITY">Manchester City</option>
+          <option value="BORUSSIA">Borussia Dortmund</option>
+          <option value="MADRID">Real Madrid</option>
+          <option value="PALMEIRAS">Palmeiras</option>
+          <option value="INTER">Internazionale Milano</option>
+          <option value="GUAN">Guangzhou Evergrande</option>
+          <option value="PSG">PSG</option>
+        </select>
       </div>
     </div>
-
-    <script type="text/javascript" src="index.js"></script>
+      <div class="greet-container">
+        <p class="greet">Bem Vindo!</p>
+      </div>
+      <div class="footer">
+      </div>
+    <script type="text/javascript" src="index.js" async></script>
   </body>
 </html>
